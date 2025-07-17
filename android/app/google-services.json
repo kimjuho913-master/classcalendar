@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565416077852",
+    "project_id": "ourclasscalendar-90a57",
+    "storage_bucket": "ourclasscalendar-90a57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565416077852:android:969a5fcff5696f5c218dd9",
+        "android_client_info": {
+          "package_name": "com.example.cal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLysFOnW7jITbGr9xXyajy9ZrQdnm0JNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565416077852:android:3b7de63bc1ef1fd5218dd9",
+        "android_client_info": {
+          "package_name": "com.example.class_calendar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLysFOnW7jITbGr9xXyajy9ZrQdnm0JNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
