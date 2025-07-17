@@ -41,7 +41,7 @@ class ScheduleCard extends StatelessWidget {
                 endTime: endTime,
                 color: color,
               ),
-              SizedBox(width: 16.0),
+              SizedBox(width: 10.0),
               Container(
                 decoration: BoxDecoration(
                   color: color,
@@ -52,6 +52,7 @@ class ScheduleCard extends StatelessWidget {
                 ),
                 width: 3.5,
               ),
+              SizedBox(width: 10,),
               _Content(
                 content: content,
               ),
