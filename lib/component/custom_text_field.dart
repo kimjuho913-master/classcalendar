@@ -23,13 +23,15 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text(
-          label,
-          style: TextStyle(
-            color: goodColor,
-            fontWeight: FontWeight.w600,
+        Center(
+          child: Text(
+            label,
+            style: TextStyle(
+              color: goodColor,
+              fontWeight: FontWeight.w600,
+            ),
           ),
         ),
         if (isTime) renderTextField(),
@@ -73,6 +75,8 @@ class CustomTextField extends StatelessWidget {
       maxLines: isTime ? 1 : null,
       expands: !isTime,
       initialValue: initialValue,
+      textAlign: TextAlign.center,
+      textAlignVertical: TextAlignVertical.center,
       keyboardType: isTime ? TextInputType.number : TextInputType.multiline,
       inputFormatters: isTime
           ? [
