@@ -24,7 +24,7 @@ void main() async {
   if (colors.isEmpty) {
     const defaultColors = [
 
-      'ff0033',
+      'E84033',
 
       'fa7a35',
 

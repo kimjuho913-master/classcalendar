@@ -175,11 +175,13 @@ class _ScheduleList extends StatelessWidget {
                           content: const Text("이 스케줄을 정말로 삭제하시겠습니까?"),
                           actions: <Widget>[
                             TextButton(
+                              style: TextButton.styleFrom(foregroundColor: grColor),
                               onPressed: () => Navigator.of(context).pop(false),
                               child: const Text("취소", style: TextStyle(color: grColor),),
                             ),
                             TextButton(
                               onPressed: () => Navigator.of(context).pop(true),
+                              style: TextButton.styleFrom(foregroundColor: Color(0xffff0033)),
                               child: const Text("삭제", style: TextStyle(color: Color(0xffff0033))),
                             ),
                           ],
