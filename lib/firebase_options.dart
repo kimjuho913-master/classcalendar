@@ -42,17 +42,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyB6KKSSRJ2_5Up53CPrrP0je3v1Sih2Ers',
-    appId: '1:565416077852:web:523a0dc815129929218dd9',
+    appId: '1:565416077852:web:30db277083604253218dd9',
     messagingSenderId: '565416077852',
     projectId: 'ourclasscalendar-90a57',
     authDomain: 'ourclasscalendar-90a57.firebaseapp.com',
     storageBucket: 'ourclasscalendar-90a57.firebasestorage.app',
-    measurementId: 'G-1R1FRHLR0M',
+    measurementId: 'G-QW578YMLE9',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBLysFOnW7jITbGr9xXyajy9ZrQdnm0JNk',
-    appId: '1:565416077852:android:3b7de63bc1ef1fd5218dd9',
+    appId: '1:565416077852:android:2e8f26e30ec28ef4218dd9',
     messagingSenderId: '565416077852',
     projectId: 'ourclasscalendar-90a57',
     storageBucket: 'ourclasscalendar-90a57.firebasestorage.app',
