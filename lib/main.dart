@@ -23,12 +23,9 @@ void main() async {
   final colors = await firestoreService.getCategoryColors();
   if (colors.isEmpty) {
     const defaultColors = [
-
-<<<<<<< HEAD
       'D32F2F',
-=======
+
       'E84033',
->>>>>>> 42a3f81cbb5ec9924c72ca138e44fe6d585359d2
 
       'fa7a35',
 
