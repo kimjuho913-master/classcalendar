@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:565416077852:android:969a5fcff5696f5c218dd9",
+        "mobilesdk_app_id": "1:565416077852:android:3b7de63bc1ef1fd5218dd9",
         "android_client_info": {
-          "package_name": "com.example.cal"
+          "package_name": "com.example.class_calendar"
         }
       },
       "oauth_client": [],
@@ -26,9 +26,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:565416077852:android:3b7de63bc1ef1fd5218dd9",
+        "mobilesdk_app_id": "1:565416077852:android:2e8f26e30ec28ef4218dd9",
         "android_client_info": {
-          "package_name": "com.example.class_calendar"
+          "package_name": "com.kimjuho913.class_calendar"
         }
       },
       "oauth_client": [],
