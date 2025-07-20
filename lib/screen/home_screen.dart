@@ -181,15 +181,10 @@ class _ScheduleList extends StatelessWidget {
                             ),
                             TextButton(
                               onPressed: () => Navigator.of(context).pop(true),
-<<<<<<< HEAD
                               style: TextButton.styleFrom(
                                   backgroundColor: Color(0xffD32F2F),
                                   foregroundColor: Colors.black),
                               child: const Text("삭제", style: TextStyle(color: Colors.white)),
-=======
-                              style: TextButton.styleFrom(foregroundColor: Color(0xffff0033)),
-                              child: const Text("삭제", style: TextStyle(color: Color(0xffff0033))),
->>>>>>> 42a3f81cbb5ec9924c72ca138e44fe6d585359d2
                             ),
                           ],
                         );
